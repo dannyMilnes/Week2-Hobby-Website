@@ -81,3 +81,14 @@ h1, h2, p {
         width: 23em;
     }
 }
+
+.text-container {
+    margin: 0 13em 0 13em;
+
+    @media only screen and (max-width: 1000px) {
+        margin: 0 5em 0 5em;
+    }
+    @media only screen and (max-width: 600px) {
+        margin: 0 1em 0 1em;
+    }
+}
